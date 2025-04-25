@@ -47,7 +47,7 @@ public void InsertAt(int index,int data) {
         
         insertAtStart(data);
         
-    }
+    } else {
     //At which pos we want add Node
     for(int i=0;i<index-1;i++)
     {
@@ -55,7 +55,7 @@ public void InsertAt(int index,int data) {
     }
     node.next = n.next;
     n.next = node;
-
+}
 
 }
     
